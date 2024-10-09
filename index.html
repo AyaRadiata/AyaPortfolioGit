@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aya Radiata</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+    </style>    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body id="body" data-page-scrolled="false" data-current-page-col="white">
+    <div id="mouse_follower">
+        <ion-icon name="play-outline" id="mfi_watch"></ion-icon>
+    </div>
+    <div id="mf_dec"></div>
+    <div id="caption_container"> 
+        <div id="caption">
+            <div id="caption_wrapper">
+                <div id="caption_slider">
+                    <span style="animation-delay: 1s;">#caption</span>
+                    <span style="animation-delay: 2s;">#caption</span>
+                    <span style="animation-delay: 3s;">#caption</span>
+                    <span style="animation-delay: 4s;">#caption</span>
+                    <span style="animation-delay: 5s;">#caption</span>
+                    <span style="animation-delay: 6s;">#caption</span>
+                    <span style="animation-delay: 7s;">#caption</span>
+                    <span style="animation-delay: 8s;">#caption</span>
+                    <span style="animation-delay: 9s;">#caption</span>
+                    <span style="animation-delay: 10s;">#caption</span>
+                </div>
+            </div>
+            <div id="cap_icon">
+                <img src="media/favicon.png" alt="Aya">
+                Aya Radiata
+            </div>
+            <div id="nav">
+                <a href="#">Home</a>
+                <a href="#page1">About</a>
+                <a href="#page1_b4">Contacts</a>
+            </div>
+        </div>
+    </div>
+    <div id="header" class="page">
+        <div id="header_video_container">
+            <div id="header_video_block">
+                <div id="header_video">
+                    <video src="media/video11.mp4" autoplay loop></video>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="header_page1">
+            <div id="header_blur"></div>
+            <div class="header_h1s">
+                <h1>Aya Radiata</h1>
+                <a href="#header_page2" id="header_main_link"><h1>Aidyn Bulatov</h1></a>
+            </div>
+            <div class="header_det">
+                <h3>Made By Aya Radiata (Aidyn Bulatov)</h3>
+                <div class="btns_container">
+                    <a href="https://www.instagram.com/ayaradiata/" class="button icon_btn" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://t.me/Aya_Radiata" class="button icon_btn" target="_blank"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                    <a href="https://www.fiverr.com/kazix7?up_rollout=true" class="button icon_btn" target="_blank"><ion-icon name="briefcase-outline"></ion-icon></a>
+                    <a href="https://github.com/AyaAya-coder" class="button icon_btn" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="header_page2"></div>
+    </div>
+    <div class="page" id="page1" data-page-shown="1">
+        <div id="about_progress_con">
+            <div id="about_progress_bar">
+                <div id="pb_thumb"></div>
+            </div>
+            <div id="about_progress_links">
+                <a href="#page1_b1" class="ap_links" onclick="aboutPageChange(1)">About Me</a>
+                <a href="#page1_b2" class="ap_links" onclick="aboutPageChange(2)">Why Me?</a>
+                <a href="#page1_b3" class="ap_links" onclick="aboutPageChange(3)">Projects</a>
+                <a href="#page1_b4" class="ap_links" onclick="aboutPageChange(4)">Contacts</a>
+            </div>
+        </div>
+        <div id="page1_content">
+            <div class="page1_block" id="page1_b1">
+                <h1>About Me</h1>
+                <div class="p1b_content" id="p1b1_content">
+                    <div class="p1b1_row">
+                        <a target="_blank" href="https://www.instagram.com/ayaradiata/" class="button img_btn">
+                            <span>Click Me!</span>
+                            <img src="media/me.png" alt="me">
+                        </a>
+                        <span>
+                            <h2>Who Am I?</h2>
+                            Hiiii! I am Bulatov Aidyn, a frontend developer with over 2yrs of programming experience. I was born in Kazakhstan, Kostanay in 2007 and now I am currently studying in high-school named NIS PhMD Almaty.
+                            <div class="btns_container" style="color: white">
+                                <a href="" class="button wb"><span>Call me</span><ion-icon name="call-outline"></ion-icon></a>
+                                <a target="_blank" href="https://t.me/Aya_Radiata" class="button wb"><span>Write Me</span><ion-icon name="paper-plane-outline"></ion-icon></a>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="p1b1_row">
+                        <img src="media/1.jpg" alt="me">
+                        <span>
+                            <h2>What Can I Do?</h2>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente modi nostrum repellat magnam consequuntur rerum vel earum eaque facilis nemo. Eum sunt corporis aliquid. Neque maxime similique tenetur sequi repudiandae.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="page1_block" id="page1_b2">
+                <h1>Why Me?</h1>
+                <div class="p1b_content" id="p1b2_content">
+                    <a class="p1b2_video button img_btn">
+                        <!-- <video src="media/video11.mp4" autoplay loop muted></video> -->
+                         <img src="media/4.jpg" alt="">
+                    </a>
+                    <div class="p1b2_text_content">
+                        <div class="p1b2_title">
+                            You Want Your Website To Look <u>Unbelievable</u>?
+                        </div>
+                        <div class="p1b2_text_blocks">
+                            <div class="p1b2_text_block">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae eum exercitationem hic dolor unde repellendus? Veritatis quia veniam dolor, dignissimos hic illum vel voluptatum, amet magnam nobis, quaerat inventore quidem.
+                            </div>
+                            <div class="p1b2_text_block">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae eum exercitationem hic dolor unde repellendus? Veritatis quia veniam dolor, dignissimos hic illum vel voluptatum, amet magnam nobis, quaerat inventore quidem.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page1_block" id="page1_b3">
+                <h1>My Projects</h1>
+                <div class="p1b_content" id="p1b3_content">
+                    <a href="#page2" id="projects_imgs_wrapper">
+                        <img src="media/examples/1.png" alt="some example" class="projects_imgs" data-project-shown="true">
+                        <img src="media/examples/2.png" alt="some example" class="projects_imgs">
+                        <img src="media/examples/3.png" alt="some example" class="projects_imgs">
+                        <img src="media/examples/4.png" alt="some example" class="projects_imgs">
+                        <img src="media/examples/5.png" alt="some example" class="projects_imgs">
+                        <img src="media/examples/6.png" alt="some example" class="projects_imgs">
+                        <img src="media/examples/7.png" alt="some example" class="projects_imgs">
+                    </a>
+                </div>
+            </div>
+            <div class="page1_block" id="page1_b4">
+                <h1>Where Can You Find Me?</h1>
+                <div class="p1b_content" id="p1b4_content">
+                    <div class="p1b4_list">
+                        <a href="https://www.instagram.com/ayaradiata/" class="contact_link" target="_blank" id="ig_link">Instagram</a>
+                        <a href="https://t.me/Aya_Radiata" class="contact_link" target="_blank" id="tg_link">Telegram</a>
+                        <a href="https://www.fiverr.com/kazix7?up_rollout=true" class="contact_link" target="_blank" id="fvr_link">Fiverr.com</a>
+                        <a href="https://github.com/AyaAya-coder" class="contact_link" target="_blank" id="git_link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="page2">
+
+    </div>
+    <div id="footer_container">
+        <div id="footer">
+            <div class="footer_block">
+                <div class="acc_block">
+                    <img src="media/icon.png" alt="">
+                    <span>
+                        <p>Aya Radiata</p>
+                        <p>A freelance frontend developer that will make your website look unbelievable</p>
+                    </span> 
+                </div>
+            </div>
+            <div class="footer_block">
+                <h1>Website Menu</h1>
+                <a href="#">Home</a>
+                <a href="#page1">About</a>
+                <a href="#page2">Projects</a>
+            </div>
+            <div class="footer_block last_foo_block">
+                <h1>Follow Me</h1>
+                <div class="btns_container">
+                    <a href="https://www.instagram.com/ayaradiata/" class="button icon_btn" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://t.me/Aya_Radiata" class="button icon_btn" target="_blank"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                    <a href="https://www.fiverr.com/kazix7?up_rollout=true" class="button icon_btn" target="_blank"><ion-icon name="briefcase-outline"></ion-icon></a>
+                    <a href="https://github.com/AyaAya-coder" class="button icon_btn" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+                <a href="" target="_blank">aidynbulatov@gmail.com</a>
+                <a href="" target="_blank">+7 705 308 3025</a>
+            </div>
+            <div id="footer_wrapper">
+                <div id="footer_slider">
+                    <span style="animation-delay: 1s;">#footer</span>
+                    <span style="animation-delay: 2s;">#footer</span>
+                    <span style="animation-delay: 3s;">#footer</span>
+                    <span style="animation-delay: 4s;">#footer</span>
+                    <span style="animation-delay: 5s;">#footer</span>
+                    <span style="animation-delay: 6s;">#footer</span>
+                    <span style="animation-delay: 7s;">#footer</span>
+                    <span style="animation-delay: 8s;">#footer</span>
+                    <span style="animation-delay: 9s;">#footer</span>
+                    <span style="animation-delay: 10s;">#footer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
